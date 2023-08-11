@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Contact</title>
+            <link rel="stylesheet" href="../index.css">
+            <link rel="icon" href="../Images/fireball (1).png">
+</head>
+<body>
+    <header>
+        <h1>Contact our staff at LBH</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../index.html">About LBH</a>
+                </li>
+                <li>
+                    <a href="./Offer.html">Our offers</a>
+                </li>
+                <li>
+                    <a href="../Subpages/WH.html">Working Hours</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <br>
+    
+    <main>
+
+        <h2>Our Contact Form</h2>
+        <form>
+            <fieldset>
+                <legend>Send Us A Message</legend>
+            <p>
+                <label for="firstName">Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Your name" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="yourname@gmail.com" required autocomplete="on">
+            </p>
+            <p>
+                <label for="userMessage">Message:</label>
+                <br>
+                <textarea name="userMessage" id="userMessage" cols="30" rows="10" placeholder="Start typing here..."></textarea>
+            </p>
+            </fieldset>
+            <br>
+            <button type="submit" formaction="https://httpbin.org/post" formethod="post">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        
+    </main>
+</body>
+
+</html>

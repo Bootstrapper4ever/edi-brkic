@@ -2,3 +2,6 @@ body{
     padding: 0% 25% 25% 25%;
 }
 
+table, th, tr, td, caption {
+    border: 2px solid #eee;
+}
