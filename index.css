@@ -1,7 +1,34 @@
-body{
-    padding: 0% 25% 25% 25%;
+body {
+    padding: 0% 25% 25% 25%
 }
 
 table, th, tr, td, caption {
     border: 2px solid #eee;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 90px;
+    background-color: #808081;
+    border-radius: 50px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 10%;
+    text-align: center;
+    border: 4px solid #E5ECF4;
+    padding: 4px;
+    background-color: #C3BEF7;
+    border-radius: 10px;
+}
+
